@@ -167,11 +167,11 @@ In this programming assignment, you are given a data file \texttt{data/publicati
   \item Implement the \pyth{AVLTree} class in the accompanying file, \pyth{avl_tree.py}, in the accompanying \texttt{src/} sub-folder.
   \item In the \pyth{AVLTree} class, implement the following methods:
   \begin{itemize}
-    \item \pyth{insert (key: str,value: Tuple[int,int]) -> None}: Inserts a \texttt{(doc\_id, sen\_id)} tuple into the AVL Tree with the given keyword .
-    \item \pyth{search (key: str) -> List[Tuple[int,int]]}: Searches for a keyword in the AVL Tree and returns a list of \texttt{(doc\_id, sen\_id)} corresponding to the keyword. 
+    \item \pyth{insert (self,key: str,value: Tuple[int,int]) -> None}: Inserts a \texttt{(doc\_id, sen\_id)} tuple into the AVL Tree with the given keyword .
+    \item \pyth{search (self,key: str) -> List[Tuple[int,int]]}: Searches for a keyword in the AVL Tree and returns a list of \texttt{(doc\_id, sen\_id)} corresponding to the keyword. 
     Returns an empty list if the keyword is not found.
-    \item \pyth{rotate_left(node: AVLTreeNode) -> None}: Performs a left rotation on the subtree rooted at the given node.
-    \item \pyth{rotate_left(node: AVLTreeNode) -> None}: Performs a right rotation on the subtree rooted at the given node.
+    \item \pyth{rotate_left(self,node: AVLTreeNode) -> None}: Performs a left rotation on the subtree rooted at the given node.
+    \item \pyth{rotate_left(self,node: AVLTreeNode) -> None}: Performs a right rotation on the subtree rooted at the given node.
     \end{itemize}
   \item The \pyth{Publication} class which loads the file, prepossesses the data and uses the \pyth{AVLTree} class has already been implemented in the accompanying file, \pyth{publication.py}, in the accompanying \texttt{src} subfolder.
 \end{itemize}
