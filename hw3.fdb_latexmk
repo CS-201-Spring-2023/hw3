@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1678124472 "c:/Users/munaw/OneDrive - Habib University (1)/DS2/1. Homeworks/Homework03/hw3.tex" "hw3.pdf" "hw3" 1678124479 0
+["pdflatex"] 1678171991 "c:/Users/munaw/OneDrive - Habib University (1)/DS2/1. Homeworks/Homework03/hw3.tex" "hw3.pdf" "hw3" 1678171993 0
   "C:/Users/munaw/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1677873138 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/munaw/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1676908746 11548 fecdbfeccb3fe9a595869e9d128fd7dd ""
   "C:/Users/munaw/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1676888650 23174347 48b2c4c6f4825d43956dc775230ae35d ""
@@ -87,10 +87,10 @@
   "C:/Users/munaw/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1654690828 7147 be6981d9f5d866a5634048c4a11814a9 ""
   "C:/Users/munaw/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/munaw/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/munaw/OneDrive - Habib University (1)/DS2/1. Homeworks/Homework03/hw3.tex" 1678124460 13785 b3e4b688f7e75fa3fc573e55d51dd4df ""
-  "hw3.aux" 1678124478 2362 41988f41232c9b3a1b636090c04398d3 "pdflatex"
-  "hw3.out" 1678124478 295 f17b7e172c0995341b2f979f86dec4fc "pdflatex"
-  "hw3.tex" 1678124460 13785 b3e4b688f7e75fa3fc573e55d51dd4df ""
+  "c:/Users/munaw/OneDrive - Habib University (1)/DS2/1. Homeworks/Homework03/hw3.tex" 1678171990 13905 6528d82e0702da6560f64e1b771b4dea ""
+  "hw3.aux" 1678171993 2362 41988f41232c9b3a1b636090c04398d3 "pdflatex"
+  "hw3.out" 1678171993 295 f17b7e172c0995341b2f979f86dec4fc "pdflatex"
+  "hw3.tex" 1678171990 13905 6528d82e0702da6560f64e1b771b4dea ""
   "images//pattern1.png" 1675456882 15052 1145b60c235efd1c71efd458f915a6e0 ""
   "images//pattern2.png" 1675456882 36389 4f413bc661bd3ddf206b7083f4922d3a ""
   "pythonhighlight.sty" 1675456882 5150 40967d7d3281875008d1e2da4cf4c81e ""
