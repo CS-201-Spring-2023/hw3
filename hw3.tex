@@ -170,8 +170,8 @@ In this programming assignment, you are given a data file \texttt{data/publicati
     \item \pyth{insert (self,key: str,value: Tuple[int,int]) -> None}: Inserts a \texttt{(doc\_id, sen\_id)} tuple into the AVL Tree with the given keyword .
     \item \pyth{search (self,key: str) -> List[Tuple[int,int]]}: Searches for a keyword in the AVL Tree and returns a list of \texttt{(doc\_id, sen\_id)} corresponding to the keyword. 
     Returns an empty list if the keyword is not found.
-    \item \pyth{rotate_left(self,node: AVLTreeNode) -> None}: Performs a left rotation on the subtree rooted at the given node.
-    \item \pyth{rotate_left(self,node: AVLTreeNode) -> None}: Performs a right rotation on the subtree rooted at the given node.
+    \item \pyth{rotate_left(self,node: AVLTreeNode) -> AVLTreeNode}: Performs a left rotation on the subtree rooted at the given node.
+    \item \pyth{rotate_left(self,node: AVLTreeNode) -> AVLTreeNode}: Performs a right rotation on the subtree rooted at the given node.
     \item \pyth{display(self)-> List[str]}: Performs an in-order traversal on the AVL Tree and returns a list of keys.
     \end{itemize}
   \item The \pyth{Publication} class which loads the file, prepossesses the data and uses the \pyth{AVLTree} class has already been implemented in the accompanying file, \pyth{publication.py}, in the accompanying \texttt{src} subfolder.
@@ -213,7 +213,7 @@ You will need to install the following modules.
 
 \section*{Testing}
 Once you have successfully implemented the methods, you can test your code by reading from the accompanying data file, \texttt{data/publications.csv}, and performing queries on it. For grading purposes, your submission will
-be tested automatically by GitHub using the accompanying \texttt{pytest} file, \texttt{test\_avl}.py.
+be tested automatically by GitHub using the accompanying \texttt{pytest} file, \texttt{test\_publication.py}.
 
 
 \newpage

@@ -68,11 +68,11 @@ class Life:
         self._nbr_count: MyDict = None  # stores count of live neighbors for cells.
 
         if chain:
-            self._alive = ChainedSet(state)
-            self._nbr_count = ChainedDict()
+            self._alive =  set(state)#ChainedSet(state)
+            self._nbr_count = dict()#ChainedDict()
         else:
-            self._alive = LinearSet(state)
-            self._nbr_count = LinearDict()
+            self._alive = set(state)#LinearSet(state)
+            self._nbr_count = dict()#LinearDict()
 
     def step(self) -> None:
         """One iteration of the game.
